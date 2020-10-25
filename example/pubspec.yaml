@@ -1,0 +1,29 @@
+name: flutter_assets_codegen_example
+description: Demonstrates how to use the flutter_assets_codegen plugin.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_assets_codegen:
+    path: ../
+  build_runner: 1.10.2
+
+
+flutter:
+  abc: 10.23
+  assets:
+    - assets/drawable/
+    - assets/raw/
+    - assets/values/
+    - assets/values/abc/

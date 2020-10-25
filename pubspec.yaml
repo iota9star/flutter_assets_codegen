@@ -1,0 +1,23 @@
+name: flutter_assets_codegen
+description: A new Flutter project.
+version: 0.0.1
+author: iota9star
+homepage: https://github.com/nichijou-io
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  recase: ^3.0.0
+  source_gen: ^0.9.7+1
+  build_runner: ^1.10.2
+  mustache_template: ^1.0.0+1
+  generic_reader: ^0.1.5
+  path: ^1.7.0
+  yaml: ^2.2.1
+  to_yaml: ^0.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter

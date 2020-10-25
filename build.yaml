@@ -1,0 +1,7 @@
+builders:
+  ren_builder:
+    import: 'package:flutter_assets_codegen/builder.dart'
+    builder_factories: [ 'handleRenBuilder' ]
+    build_extensions: { '.dart': [ '.r.dart' ] }
+    auto_apply: root_package
+    build_to: source
